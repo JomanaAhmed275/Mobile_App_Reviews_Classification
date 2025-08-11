@@ -22,17 +22,11 @@ NumPy
 Matplotlib / Seaborn (if visualization is included)
 
 📂 Project Structure
-bash
-Copy code
 project-folder/
 │── main.py            # Main Python script  
 │── data.csv           # Dataset used  
 │── requirements.txt   # Dependencies  
 │── README.md          # Project documentation  
-
-
-
-
 
 
 

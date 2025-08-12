@@ -1,32 +1,43 @@
-Data Analysis Project
+📌 Project: Multilingual Mobile App Reviews Analysis
 
-📌 Description
-This project performs data analysis using Python.
-It includes:
+📄 Overview
 
-Reading data from a CSV file.
+This project analyzes multilingual mobile app review data to classify ratings as either positive or negative.
+Three different models were used to compare performance: Logistic Regression,and Decision Tree.
 
-Cleaning and preparing the dataset.
+---
 
-Performing analysis and generating insights.
+📂 Dataset
 
-Saving results for further use.
+The dataset contains user ratings for mobile apps, review text, review date, and other related metadata.
+A new column called *rating\_label* was created, where:
 
-🛠 Technologies Used
-Python 3.x
+* *1* = Positive review (rating ≥ 3)
+* *0* = Negative review (rating < 3)
 
-Pandas
+---
 
-NumPy
+🛠 Process
 
-Matplotlib / Seaborn 
+1. Load the dataset and remove missing values.
+2. Prepare the data by dropping unnecessary columns and converting categorical values to numeric.
+3. Split the dataset into training, validation, and testing sets.
+4. Create a visualization showing the distribution of positive and negative reviews.
+5. Train the two models and compare their performance using accuracy,and recall metrics.
+6. Test the best-performing model on the final test set.
 
-📂 Project Structure
-project-folder/
-│── main.py            # Main Python script  
-│── data.csv           # Dataset used  
-│── requirements.txt   # Dependencies  
-│── README.md          # Project documentation  
+---
+
+📊 Results
+
+The project achieved good results in classifying reviews, with the Logistic Regression model performing best on the test set.
+
+---
+
+📦 Requirements
+
+* Python
+* Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 
 

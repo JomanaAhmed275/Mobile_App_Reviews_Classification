@@ -19,7 +19,7 @@ Pandas
 
 NumPy
 
-Matplotlib / Seaborn (if visualization is included)
+Matplotlib / Seaborn 
 
 📂 Project Structure
 project-folder/
